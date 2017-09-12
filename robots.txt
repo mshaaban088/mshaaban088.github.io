@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: http://mshaaban.me/sitemap.xml
