@@ -86,7 +86,7 @@ a:hover {
     left: 0;
     right: 0;
     bottom: 0;
-    /*background-image: url(../img/dot.svg), radial-gradient(circle at center , rgba(67, 206, 162,.85), rgba(24, 90, 157, 0.85)), url(../img/headshot-colored-s.jpg);*/
+    background-color: #185A9D;
     background-size: 3px, cover, cover;
     background-position: center;
     display: flex;
