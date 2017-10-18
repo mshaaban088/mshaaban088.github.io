@@ -89,9 +89,6 @@ a:hover {
     background-color: #185A9D;
     background-size: 3px, cover, cover;
     background-position: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -124,12 +121,17 @@ and (max-width: 519px) {
 }
 
 .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
     color: #FFF;
-    text-align: center;
-    padding: 0 5%;
     width: 100%;
-    position: relative;
-    top: -5%;
+    height: 50%;
+    padding: 5px;
+    text-align: center;
 }
 
 @keyframes fadeIn {
